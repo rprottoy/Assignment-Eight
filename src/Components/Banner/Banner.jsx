@@ -5,6 +5,22 @@ import heroPng from "../../assets/assets/hero.png";
 import TrustCount from "./TrustCount";
 
 const Banner = () => {
+  const handlePlayStore = () => {
+    window.open(
+      "https://play.google.com/store/games?hl=en",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
+  const handleAppStore = () => {
+    window.open(
+      "https://www.apple.com/app-store/",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   return (
     <div className="mt-10 md:mt-20 font-display  lg:mx-auto">
       <div className="text-center ">
@@ -21,15 +37,13 @@ const Banner = () => {
           ideas into digital experiences that truly make an impact.
         </p>
       </div>
-      <div
-        className="flex
-      flex-col-reverse lg:flex-col "
-      >
-        <div className="md:flex md:justify-center  mb-10 ">
+      <div>
+        <div className="flex justify-center  mb-10 ">
           <div>
             <button
+              onClick={handlePlayStore}
               className="flex border-2
-           border-[#D2D2D2] items-center rounded-sm text-[#001931] font-semibold text-[20px] py-4 px-[21.5px] mr-4 mb-4"
+           border-[#D2D2D2] items-center rounded-sm text-[#001931] font-semibold md:text-[20px] py-4 lg:px-[21.5px] px-3 mr-4 mb-4"
             >
               <img className="w-10 mr-2.5" src={playStore} alt="" />
               <h6>Google Play</h6>
@@ -37,8 +51,9 @@ const Banner = () => {
           </div>
           <div>
             <button
+              onClick={handleAppStore}
               className="flex border-2
-           border-[#D2D2D2] items-center rounded-sm text-[#001931] font-semibold text-[20px] py-4 px-[30.5px]"
+           border-[#D2D2D2] items-center rounded-sm text-[#001931] font-semibold md:text-[20px] py-4 md:px-[30.5px] px-3"
             >
               <img className="w-10 mr-2.5" src={appStore} alt="" />
               <h6>App Store</h6>
@@ -46,7 +61,7 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <img className="mx-auto px-4 mb-8 lg:mb-0" src={heroPng} alt="" />
+          <img className="mx-auto px-4 lg:mb-0" src={heroPng} alt="" />
         </div>
       </div>
       <div>
