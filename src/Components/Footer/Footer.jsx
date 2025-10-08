@@ -55,7 +55,7 @@ const Footer = () => {
           </nav>
         </footer>
       </div>
-      <aside className="pb-[30px] text-center font-display bg-[#001931]">
+      <aside className="py-[30px] text-center font-display bg-[#001931]">
         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
       </aside>
     </div>
