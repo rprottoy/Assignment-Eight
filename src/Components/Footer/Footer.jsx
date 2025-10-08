@@ -1,5 +1,6 @@
 import React from "react";
 import logoImg from "../../assets/assets/logo.png";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -7,7 +8,9 @@ const Footer = () => {
       <div>
         <footer className="footer sm:footer-horizontal bg-[#001931] text-neutral-content p-10 font-display">
           <aside>
-            <img className="w-12" src={logoImg} alt="" />
+            <Link to="/">
+              <img className="w-12" src={logoImg} alt="" />
+            </Link>
             <p>
               HERO.IO
               <br />

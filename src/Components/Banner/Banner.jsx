@@ -31,7 +31,7 @@ const Banner = () => {
           </span>{" "}
           Apps
         </h2>
-        <p className="text-[#627382] text-[20px] md:mt-4 mt-6 mb-10 px-2 ">
+        <p className="text-[#627382] text-[20px] md:mt-4 mt-6 mb-10 px-3">
           At HERO.IO , we craft innovative apps designed to make everyday life
           simpler, smarter, and more exciting. <br /> Our goal is to turn your
           ideas into digital experiences that truly make an impact.

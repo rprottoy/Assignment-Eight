@@ -1,6 +1,7 @@
 import React from "react";
 import logoImg from "../../assets/assets/logo.png";
 import btnIcon from "../../assets/assets/icons8.png";
+import { Link, Links, NavLink } from "react-router";
 
 const NavBar = () => {
   const handleContribute = () => {
@@ -33,32 +34,42 @@ const NavBar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-white font-medium"
             >
-              <li>
-                <a>Home</a>
-              </li>
-              <li>
-                <a>Apps</a>
-              </li>
+              <Link to="/">
+                <li>
+                  <a>Home</a>
+                </li>
+              </Link>
+              <Link to="/allApps">
+                <li>
+                  <a>Apps</a>
+                </li>
+              </Link>
               <li>
                 <a>Installation</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">
-            <img className="w-10 " src={logoImg} alt="" />
-            <h1 className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ">
-              HERO.IO
-            </h1>
-          </a>
+          <Link to="/">
+            <a className="btn btn-ghost text-xl">
+              <img className="w-10 " src={logoImg} alt="" />
+              <h1 className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ">
+                HERO.IO
+              </h1>
+            </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-black font-medium">
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Apps</a>
-            </li>
+            <Link to="/">
+              <li>
+                <a>Home</a>
+              </li>
+            </Link>
+            <Link to="/allApps">
+              <li>
+                <a>Apps</a>
+              </li>
+            </Link>
             <li>
               <a>Installation</a>
             </li>
