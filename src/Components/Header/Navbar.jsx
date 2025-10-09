@@ -36,42 +36,42 @@ const NavBar = () => {
             >
               <Link to="/">
                 <li>
-                  <a>Home</a>
+                  <h3>Home</h3>
                 </li>
               </Link>
               <Link to="/allApps">
                 <li>
-                  <a>Apps</a>
+                  <h3>Apps</h3>
                 </li>
               </Link>
               <li>
-                <a>Installation</a>
+                <h3>Installation</h3>
               </li>
             </ul>
           </div>
           <Link to="/">
-            <a className="btn btn-ghost text-xl">
+            <div className="btn btn-ghost text-xl">
               <img className="w-10 " src={logoImg} alt="" />
               <h1 className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ">
                 HERO.IO
               </h1>
-            </a>
+            </div>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-black font-medium">
             <Link to="/">
               <li>
-                <a>Home</a>
+                <h3>Home</h3>
               </li>
             </Link>
             <Link to="/allApps">
               <li>
-                <a>Apps</a>
+                <h3>Apps</h3>
               </li>
             </Link>
             <li>
-              <a>Installation</a>
+              <h3>Installation</h3>
             </li>
           </ul>
         </div>

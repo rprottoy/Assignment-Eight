@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import downloadIcon from "../../assets/assets/icon-downloads.png";
 import ratingIcon from "../../assets/assets/icon-ratings.png";
 import reviewIcon from "../../assets/assets/icon-review.png";
 import { addToStoredDB } from "../../Utilities/AddToDB";
 
+import Charts from "../AppChart/Charts";
+
 const AppDetails = () => {
+  const [installNow, setInstallNow] = useState(false);
+
   const { id } = useParams();
   const appId = parseInt(id);
   // console.log(id);
@@ -16,7 +20,6 @@ const AppDetails = () => {
   const {
     image,
     description,
-    ratings,
     title,
     downloads,
     ratingAvg,
@@ -25,20 +28,16 @@ const AppDetails = () => {
     reviews,
   } = specificApp;
 
-  const handleAppDownload = (id) => {
-    addToStoredDB(id);
-
-    if (handleAppDownload === true) {
-      return "Downloaded";
-    }
-  };
+  // const handleAppDownload = (id) => {
+  //   addToStoredDB(id);
+  // };
 
   return (
     <div>
       <div className="lg:max-w-7xl lg:mx-auto lg:mt-20 mb-10 md:flex items-center ">
         <div>
           <img
-            className="md:w-[350px] mr-10
+            className="overflow-hidden md:w-[350px] mr-10
           "
             src={image}
             alt=""
@@ -79,17 +78,34 @@ const AppDetails = () => {
           </div>
           <div>
             <button
-              onClick={() => handleAppDownload(id)}
+              onClick={() => setInstallNow(id, !installNow)}
               className="bg-[#00D390] px-5 py-3.5 text-[20px] font-semibold rounded-[4px] ml-15 lg:ml-0 hover:bg-cyan-600"
             >
-              Install Now - {size} <span>MB</span>
+              {" "}
+              {installNow ? "Installed" : "Install Now"} - {size}
+              <span>MB</span>
             </button>
           </div>
         </div>
       </div>
       <div className="border-b-2 border-gray-300"></div>
       {/* Chart Section */}
-      <div className="mt-10"></div>
+
+      <div className="lg:max-w-7xl lg:mx-auto">
+        <div className="mb-10">
+          <h4 className="text-[#001931] font-semibold text-2xl mb-6 ">
+            Ratings
+          </h4>
+          <Charts></Charts>
+        </div>
+        <div className="border-b-2 border-gray-300 mb-10"></div>
+        <div>
+          <h4 className="font-semibold text-2xl text-[#001931] mb-6">
+            Description
+          </h4>
+          <p className="text-[#627382] mb-20">{description}</p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1716032008614-a98ca34816ba?q=80&w=1259&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Photo Master",
+    "companyName": "SnapTech",
+    "id": 1,
+    "description": "Advanced photo editor with filters, retouching, and collage tools.",
+    "size": 120,
+    "reviews": 1500,
+    "ratingAvg": 4.5,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 770 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800",
+    "title": "Fit Track",
+    "companyName": "HealthPlus",
+    "id": 2,
+    "description": "Track your workouts, calories, and progress over time.",
+    "size": 85,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": "800K",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1290 }
+    ]
+  },
+  {
+    "image": "https://media.istockphoto.com/id/2188714610/photo/close-up-a-woman-managing-her-home-finances-with-a-smartphone-she-reviews-financial-bills.jpg?s=2048x2048&w=is&k=20&c=7baGa1Yb6fJeEaxZRiYVQjVnOIQk_JvvK_nqIz90_HY=",
+    "title": "Budget Buddy",
+    "companyName": "FinancePro",
+    "id": 3,
+    "description": "Manage your expenses, create budgets, and save money effectively.",
+    "size": 60,
+    "reviews": 900,
+    "ratingAvg": 4.2,
+    "downloads": "300K",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 365 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1655970580622-4a547789c850?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Mind Relax",
+    "companyName": "CalmMind",
+    "id": 4,
+    "description": "Meditation and sleep aid app to reduce stress and anxiety.",
+    "size": 150,
+    "reviews": 4000,
+    "ratingAvg": 4.8,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
+    "title": "Recipe King",
+    "companyName": "Foodies Inc",
+    "id": 5,
+    "description": "Thousands of recipes with step-by-step instructions and videos.",
+    "size": 95,
+    "reviews": 1800,
+    "ratingAvg": 4.6,
+    "downloads": "650K",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1035 }
+    ]
+  },
+  {
+    "image": "https://plus.unsplash.com/premium_photo-1722209791020-5add5301206e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Travel Mate",
+    "companyName": "GlobeTrotters",
+    "id": 6,
+    "description": "Plan trips, book hotels, and explore destinations worldwide.",
+    "size": 180,
+    "reviews": 3200,
+    "ratingAvg": 4.4,
+    "downloads": "900K",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1460 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1592913333264-6405f0cfc823?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Quick Notes",
+    "companyName": "NoteWorks",
+    "id": 7,
+    "description": "Simple and fast note-taking app with cloud sync.",
+    "size": 45,
+    "reviews": 600,
+    "ratingAvg": 4.3,
+    "downloads": "200K",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 285 }
+    ]
+  },
+  {
+    "image": "https://plus.unsplash.com/premium_photo-1666739032615-ecbd14dfb543?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Language Pal",
+    "companyName": "LinguaTech",
+    "id": 8,
+    "description": "Learn new languages with interactive lessons and games.",
+    "size": 220,
+    "reviews": 5000,
+    "ratingAvg": 4.7,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800",
+    "title": "Game Zone",
+    "companyName": "Fun Labs",
+    "id": 9,
+    "description": "Collection of mini-games to play alone or with friends.",
+    "size": 300,
+    "reviews": 2500,
+    "ratingAvg": 4.2,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1080 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1630260667842-830a17d12ec9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Weather Now",
+    "companyName": "ClimateTech",
+    "id": 10,
+    "description": "Real-time weather updates, alerts, and forecasts.",
+    "size": 55,
+    "reviews": 1200,
+    "ratingAvg": 4.1,
+    "downloads": "450K",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=800",
+    "title": "Music Stream",
+    "companyName": "AudioWave",
+    "id": 11,
+    "description": "Stream millions of songs and create playlists easily.",
+    "size": 250,
+    "reviews": 4200,
+    "ratingAvg": 4.6,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2590 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800",
+    "title": "Task Master",
+    "companyName": "ProductivityHub",
+    "id": 12,
+    "description": "Organize tasks, set reminders, and increase productivity.",
+    "size": 70,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": "550K",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 680 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Shop Easy",
+    "companyName": "Retail Tech",
+    "id": 13,
+    "description": "Shop online with deals, discounts, and fast delivery.",
+    "size": 160,
+    "reviews": 2900,
+    "ratingAvg": 4.5,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800",
+    "title": "News Flash",
+    "companyName": "Global Media",
+    "id": 14,
+    "description": "Stay updated with breaking news and trending stories worldwide.",
+    "size": 130,
+    "reviews": 2000,
+    "ratingAvg": 4.3,
+    "downloads": "750K",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1010 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1676291920753-dd019397927a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Fit Meal",
+    "companyName": "Healthy Eats",
+    "id": 15,
+    "description": "Plan meals, track calories, and maintain a healthy diet.",
+    "size": 90,
+    "reviews": 1600,
+    "ratingAvg": 4.5,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 900 }
+    ]
+  }
+]
