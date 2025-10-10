@@ -39,14 +39,16 @@ const NavBar = () => {
                   <h3>Home</h3>
                 </li>
               </Link>
-              <Link to="/allApps">
+              <Link to={"/allAppsRoot"}>
                 <li>
                   <h3>Apps</h3>
                 </li>
               </Link>
-              <li>
-                <h3>Installation</h3>
-              </li>
+              <Link to={"/installations"}>
+                <li>
+                  <h3>Installation</h3>
+                </li>
+              </Link>
             </ul>
           </div>
           <Link to="/">
@@ -62,17 +64,19 @@ const NavBar = () => {
           <ul className="menu menu-horizontal px-1 text-black font-medium">
             <Link to="/">
               <li>
-                <h3>Home</h3>
+                <h3> Home</h3>
               </li>
             </Link>
-            <Link to="/allApps">
+            <Link to={"/allAppsRoot"}>
               <li>
                 <h3>Apps</h3>
               </li>
             </Link>
-            <li>
-              <h3>Installation</h3>
-            </li>
+            <Link to={"/installations"}>
+              <li>
+                <h3>Installation</h3>
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="navbar-end ">

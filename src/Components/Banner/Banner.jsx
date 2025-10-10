@@ -43,7 +43,7 @@ const Banner = () => {
             <button
               onClick={handlePlayStore}
               className="flex border-2
-           border-[#D2D2D2] items-center rounded-sm text-[#001931] font-semibold md:text-[20px] py-4 lg:px-[21.5px] px-3 mr-4 mb-4"
+           border-[#D2D2D2] items-center rounded-sm text-[#001931] font-semibold md:text-[20px] py-4 lg:px-[21.5px] px-3 mr-4 mb-4 hover:bg-cyan-600"
             >
               <img className="w-10 mr-2.5" src={playStore} alt="" />
               <h6>Google Play</h6>
@@ -53,7 +53,7 @@ const Banner = () => {
             <button
               onClick={handleAppStore}
               className="flex border-2
-           border-[#D2D2D2] items-center rounded-sm text-[#001931] font-semibold md:text-[20px] py-4 md:px-[30.5px] px-3"
+           border-[#D2D2D2] items-center rounded-sm text-[#001931] font-semibold md:text-[20px] py-4 md:px-[30.5px] px-3 hover:bg-cyan-600"
             >
               <img className="w-10 mr-2.5" src={appStore} alt="" />
               <h6>App Store</h6>

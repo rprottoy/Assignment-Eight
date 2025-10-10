@@ -4,10 +4,14 @@ import downloadIcon from "../../assets/assets/icon-downloads.png";
 import ratingIcon from "../../assets/assets/icon-ratings.png";
 import reviewIcon from "../../assets/assets/icon-review.png";
 import { addToStoredDB } from "../../Utilities/AddToDB";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import Charts from "../AppChart/Charts";
 
 const AppDetails = () => {
+  const notify = () => toast("Download Completed!");
+
   const [installNow, setInstallNow] = useState(false);
 
   const { id } = useParams();
@@ -35,6 +39,7 @@ const AppDetails = () => {
   return (
     <div>
       <div className="lg:max-w-7xl lg:mx-auto lg:mt-20 mb-10 md:flex items-center ">
+        <ToastContainer></ToastContainer>
         <div>
           <img
             className="overflow-hidden md:w-[350px] mr-10
@@ -78,11 +83,14 @@ const AppDetails = () => {
           </div>
           <div>
             <button
-              onClick={() => setInstallNow(id, !installNow)}
-              className="bg-[#00D390] px-5 py-3.5 text-[20px] font-semibold rounded-[4px] ml-15 lg:ml-0 hover:bg-cyan-600"
+              onClick={() => {
+                setInstallNow(id, !installNow);
+                addToStoredDB(specificApp);
+                notify();
+              }}
+              className=" bg-[#00D390] px-5 py-3.5 text-[20px] font-semibold rounded-[4px] ml-15 lg:ml-0 hover:bg-cyan-600"
             >
-              {" "}
-              {installNow ? "Installed" : "Install Now"} - {size}
+              {installNow ? "Installed  " : "Install Now"} -{size}
               <span>MB</span>
             </button>
           </div>

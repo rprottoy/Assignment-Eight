@@ -9,17 +9,19 @@ const getStoredApp = () => {
   }
 };
 
-const addToStoredDB = (id) => {
+const addToStoredDB = (app) => {
   const storedAppData = getStoredApp();
 
-  if (storedAppData.includes(id)) {
+  const isExist = storedAppData.find((props) => props.id === app.id);
+
+  if (isExist) {
     alert("App already downloaded");
   } else {
-    storedAppData.push(id);
+    storedAppData.push(app);
     // console.log(storedAppData);
     const data = JSON.stringify(storedAppData);
     localStorage.setItem("appList", data);
   }
 };
 
-export { addToStoredDB };
+export { addToStoredDB, getStoredApp };
